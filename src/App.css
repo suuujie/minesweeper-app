@@ -1,0 +1,59 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding: 40px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+header {
+  margin: auto;
+  width: 500px;
+}
+
+.button-group {
+  display: flex;
+  height: 40px;
+  margin-bottom: 1em;
+}
+
+.button-group button {
+  flex: 1;
+}
+
+.flag {
+  color: red;
+}
+
+.mine {
+  color: red;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+.tile {
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid black;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  cursor: default;
+  user-select: none;
+}
+
+.hidden {
+  background-color: #a9b0ba;
+}
