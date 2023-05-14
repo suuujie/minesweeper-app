@@ -1,23 +1,23 @@
 import { Difficulty } from '../common/constants';
 
 export type TileState = {
-	flagged: boolean;
-	open: boolean;
-	mine: boolean;
-	count: number;
+  flagged: boolean;
+  open: boolean;
+  mine: boolean;
+  count: number;
 };
 
 export type BoardState = TileState[][];
 
 export type DeviceSettings = {
-	web: BoardSettings;
+  web: BoardSettings;
 };
 
 export type BoardSettings = {
-	rows: number;
-	cols: number;
-	mines: number;
-	difficulty: `${Difficulty}`;
+  rows: number;
+  cols: number;
+  mines: number;
+  difficulty: `${Difficulty}`;
 };
 
 export type Device = keyof DeviceSettings;
